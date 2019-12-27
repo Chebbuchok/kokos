@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Humor" max_length="40" name="x_439481_chembucho_humor" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Humor" max_length="40" name="humor" type="string">
+            <choice>
+                <element inactive_on_update="false" label="low" value="low"/>
+                <element inactive_on_update="false" label="middle" value="middle"/>
+                <element inactive_on_update="false" label="my humor" value="my humor"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
